@@ -1,21 +1,19 @@
 import React from 'react';
 import { Text, StyleSheet, View} from 'react-native';
-
+//This is a functional component
 const ComponentsScreen = () => {
-    const greeting = {color : "Hi from variable"};
-    const anotherGreeting = <Text style={styles.subHeaderStyle}>Hi from another variable</Text>;
+    const name = "ScifiTheDev";
     return (
         <View>
-            <Text style = {styles.textStyle}>This is from the ComponentsScreen</Text>
-            <Text style = {styles.subHeaderStyle}>{greeting.color}</Text>
-            {anotherGreeting}
+            <Text style = {styles.textStyle}>Getting started with react Native!</Text>
+            <Text style={styles.subHeaderStyle}>Hi my name is {name}</Text>
         </View>
     );
 };
 
 const styles = StyleSheet.create({
     textStyle:{
-        fontSize: 30
+        fontSize: 45
     },
     subHeaderStyle:{
         fontSize: 20
