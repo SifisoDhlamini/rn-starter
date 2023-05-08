@@ -10,9 +10,13 @@ const HomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate("Components")}
         title="Go to Components Demo"
       />
-      <Button 
-        onPress={()=> navigation.navigate("List")}
+      <Button
+        onPress={() => navigation.navigate("List")}
         title="Go to List Demo"
+      />
+      <Button
+        onPress={() => navigation.navigate("Image")}
+        title="Go to Image"
       />
       {/*TouchableOpacity is a button that is more customizable*/}
       {/* <TouchableOpacity onPress={()=> props.navigation.navigate("List") }>
@@ -27,8 +31,8 @@ const HomeScreen = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   style: {
-    fontSize: 30
-  }
+    fontSize: 30,
+  },
 });
 
 export default HomeScreen;
