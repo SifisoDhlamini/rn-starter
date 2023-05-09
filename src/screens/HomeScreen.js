@@ -16,15 +16,19 @@ const HomeScreen = ({ navigation }) => {
       />
       <Button
         onPress={() => navigation.navigate("Image")}
-        title="Go to Image"
+        title="Go to Image Demo"
       />
       <Button
         onPress={() => navigation.navigate("Counter")}
-        title="Go to Counter"
+        title="Go to Counter Demo"
       />
       <Button
         onPress={() => navigation.navigate("Color")}
-        title="Go to Color"
+        title="Go to Color Randomizer Demo"
+      />
+      <Button
+        onPress={() => navigation.navigate("Square")}
+        title="Go to Square Color Adjuster Demo"
       />
       {/*TouchableOpacity is a button that is more customizable*/}
       {/* <TouchableOpacity onPress={()=> props.navigation.navigate("List") }>
