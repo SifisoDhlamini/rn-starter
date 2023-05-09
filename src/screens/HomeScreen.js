@@ -27,7 +27,7 @@ const HomeScreen = ({ navigation }) => {
         title="Go to Color Randomizer Demo"
       />
       <Button
-        onPress={() => navigation.navigate("Square")}
+        onPress={() => navigation.navigate("Square2")}
         title="Go to Square Color Adjuster Demo"
       />
       {/*TouchableOpacity is a button that is more customizable*/}
